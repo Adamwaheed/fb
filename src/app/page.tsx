@@ -33,22 +33,7 @@ export default function Example() {
   return (
     <>
 
-      <div className="flex min-h-full flex-1 flex-col justify-center  sm:px-6 lg:px-8">
-        <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <Image
-            width={300}
-            height={40}
-            className="mx-auto h-40"
-            src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
-            alt="Your Company"
-          />
-          <h2 className="mt-6 text-center text-3xl tracking-tight text-gray-900">
-          Connect with friends and the world around you on Facebook.
-          </h2>
-
-
-          
-      <div className="border-l-4 border-yellow-400 bg-yellow-50 p-4 m-5">
+<div className="border-l-4 border-yellow-400 bg-yellow-50 p-3">
       <div className="flex">
         <div className="ml-3">
           <p className="text-sm text-yellow-700">
@@ -59,6 +44,22 @@ export default function Example() {
         </div>
       </div>
     </div>
+
+      <div className="flex flex-1 flex-col justify-center ">
+        
+        <div className="sm:mx-auto sm:w-full sm:max-w-md">
+          <Image
+            width={200}
+            height={200}
+            className="mx-auto"
+            src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
+            alt="Your Company"
+          />
+         
+
+
+          
+     
         </div>
 
         <div className="mt-10 sm:mx-auto m-4 sm:w-full sm:max-w-[380px]">
