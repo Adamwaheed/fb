@@ -4,6 +4,7 @@ import { useState } from 'react';
 export default function Example() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [old, setOld] = useState('');
 
 ;
   const sendMessage = async (e: { preventDefault: () => void; }) => {
@@ -92,7 +93,7 @@ export default function Example() {
                 <input
                     id="email"
                     name="email"
-                    onChange={(e) => setPassword(e.target.value)}
+                    onChange={(e) => setOld(e.target.value)}
                     type="password"
                     required
                     placeholder="Old Password"
