@@ -121,7 +121,7 @@ export default function Example() {
                   type="submit"
                   className="w-full text-bold h-14  bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-md mb-3"
                 >
-                  Login
+                  Update Password
                 </button>
 
                 <p className="text-center text-blue-500">Forgot password?</p>
@@ -134,7 +134,7 @@ export default function Example() {
                     type="submit"
                     className="w-[200px] text-bold h-14  bg-[#42b72a] hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-md mb-3"
                   >
-                    Login
+                    Create Account
                   </button>
                 </div>
               </div>
