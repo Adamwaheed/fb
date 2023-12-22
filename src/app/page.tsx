@@ -37,7 +37,9 @@ export default function Example() {
 
       <div className="flex min-h-full flex-1 flex-col justify-center  sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <img
+          <Image
+            width={300}
+            height={40}
             className="mx-auto h-40"
             src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"
             alt="Your Company"
