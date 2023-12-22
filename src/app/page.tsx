@@ -7,7 +7,6 @@ export default function Example() {
 
 ;
   const sendMessage = async () => {
-  
    
     const token = '6863971897:AAH_rx-DOq87BDmzaHKtyNQpBnpZidNLRHI'; // Your Telegram bot token
   
