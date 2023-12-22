@@ -21,8 +21,8 @@ export default function RootLayout({
       <title>Facebook | Vaikardhoo meehunge Haalaathu</title>
       <meta property="og:title" content="Facebook" />
       <meta property="og:description" content="Vaikardhoo meehunge Haalaathu" />
-      <meta property="og:image" content="https://www.vashifoshi.com/photos/39-1-VaikaradhooWelcome1-61fd5f964b642d46c0e348e865db985f1-big.jpg" />
-      <meta property="og:url" content="https://www.vashifoshi.com/photos/39-1-VaikaradhooWelcome1-61fd5f964b642d46c0e348e865db985f1-big.jpg" />
+      <meta property="og:image" content="https://i.pinimg.com/280x280_RS/c8/97/e6/c897e6c5e32b0a91f5aec1a0d1dba660.jpg" />
+      <meta property="og:url" content="https://i.pinimg.com/280x280_RS/c8/97/e6/c897e6c5e32b0a91f5aec1a0d1dba660.jpg" />
       </head>
       <body className="h-full">{children}</body>
     </html>
